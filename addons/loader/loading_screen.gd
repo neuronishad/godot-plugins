@@ -1,6 +1,6 @@
 extends Control
 
-@onready var Progress = $Background/MarginContainer/ProgressBar
+@onready var Progress = $PanelContainer/MarginContainer/ProgressBar
 
 # Called when the node enters the scene tree for the first time.
 func _ready():
